@@ -1,0 +1,8 @@
+use javaexternal;
+
+
+create table Customer (cnum int,name varchar(50), state varchar(50),climit int, repno int);
+
+create table Representative (repno int, rname varchar(50),state varchar(50),comrate int); 
+
+select * from Representative;

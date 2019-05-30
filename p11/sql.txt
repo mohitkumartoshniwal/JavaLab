@@ -1,0 +1,9 @@
+use javaexternal;
+
+
+create table Flight (Flight_Number int,Airline_Name varchar(50),Weekdays varchar(50));
+
+
+create table SeatReservation (Flight_Number int, Date varchar(50),Seat_Number int,Customer_Name varchar(50),Customer_Phone int);
+ 
+insert into Flight values(12,"sada","wed");
